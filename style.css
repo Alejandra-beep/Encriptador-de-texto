@@ -1,0 +1,92 @@
+*{
+    background: #E8DAEF;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 4%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+
+.text_area{
+    background: #F4ECF7;
+    border: none;
+    margin-top: 10px;
+    color: #4A235A;
+    text-transform: lowercase;
+    border-radius: 25px;
+}
+::placeholder{color: #4A235A;}
+    .text_area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background: #D2B4DE;
+    background-image: url("imagenes/rapunzel.webp");
+    background-repeat: no-repeat;
+    border: none;
+    color: #4A235A;
+    border-radius: 25px;
+    margin-left: 98px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn_encriptar{
+    background: #BB8FCE;
+    border: 1px solid #4A235A;
+    border-radius: 15px;
+    color: #4A235A;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn_desencriptar{
+    background: #4A235A;
+    border: 2px solid #F4ECF7;
+    border-radius: 15px;
+    color: #F4ECF7 ;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+}
+
+.copiar{
+    background: #F4ECF7;
+    color: #A569BD;
+    border-radius: 15px;
+    border: 1px solid #A569BD;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+}
+
+.informacion{
+    font-size: 18px;
+    color:#6C3483;
+}
